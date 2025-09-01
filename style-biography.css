@@ -111,31 +111,31 @@
 
 @keyframes fader {
   0% {
-    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   16.67% {
-    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   33.34% {
-    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   50.01% {
-    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   66.68% {
-    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   83.35% {
-    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 
   100% {
-    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+    background: url(---) center/cover no-repeat;
   }
 }
 
@@ -187,4 +187,5 @@
   background: #000000;
   border-radius: 0.5vw;
   color: #ffffff;
+
 }
