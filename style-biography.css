@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'Bodoni MT';
+	src: url('https://dl.dropbox.com/scl/fi/4zb2tugpwqvzde0avbhoo/Bodoni-MT.woff?rlkey=c7jzo6azvuphe0bd5v9qpn1qz&st=zu54agte&dl=0') format('woff');
+}
+
+:root {
+  --stylesheet: url(https://dl.dropbox.com/scl/fi/baoa0w6gflnurrn0b4meh/style-biography.css?rlkey=poyavze7v0g8btwjvwzax7wni&st=f1mg9x60&dl=0);
+}
+
+.bio-frame {
+  margin: auto;
+  max-width: 100%;
+  width: 55vw;
+  height: 50vw;
+  display: grid;
+  border-radius: 2vw 2vw 2vw 2vw;
+  font-family: 'Sarabun';
+  overflow: auto;
+  scrollbar-width: none;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bio-cover {
+  padding: 32vw 0vw 3vw 0vw;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0)), var(--cover-pic) center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.bio-quote {
+  padding: 10vw 0vw 10vw 0vw;
+  width: 100%;
+  background: var(--quote-pic) left/cover no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bio-aboutme {
+  padding: 0vw 0vw 5vw 0vw;
+  width: 100%;
+  height: fit-content;
+  background: #f1f1f1;
+  color: #ffffff;
+}
+
+.bio-aboutme-header {
+  padding: 5vw 0vw 0vw 0vw;
+  background: var(--aboutme-header-pic) center/cover no-repeat;
+  font-family: 'Anuphan';
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000000;
+  clip-path: ellipse(100% 100% at 50% -0.8rem);
+}
+
+.bio-aboutme-detail {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+  text-align: left;
+  justify-content: center;
+}
+
+.bio-feature-persona {
+  display: flex;
+  font-size: 1vw;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.bio-feature-persona-pic-a {
+  width: 40%;
+  background: var(--feature-persona-pic) center/cover no-repeat;
+}
+
+.bio-feature-persona-pic-b {
+  width: 40%;
+  background: var(--feature-persona-pic) right/cover no-repeat;
+}
+
+.bio-feature-persona-detail {
+  padding: 4vw 4vw 4vw 4vw;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+.bio-backstory {
+  display: flex;
+  font-size: 1vw;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.bio-backstory-detail {
+  padding: 4vw 4vw 4vw 4vw;
+  background: #f1f1f1;
+}
+
+.bio-backstory-pic {
+  padding: 20vw 0vw 0vw 0vw;
+  animation: fader 30s linear infinite;
+}
+
+@keyframes fader {
+  0% {
+    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+  }
+
+  16.67% {
+    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+  }
+
+  33.34% {
+    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+  }
+
+  50.01% {
+    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+  }
+
+  66.68% {
+    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+  }
+
+  83.35% {
+    background: url(https://dl.dropbox.com/scl/fi/pif87zhyjzdyb965crt2a/Web-Biography-Part-III-B.jpg?rlkey=oyk6yz0egbnfj9dz7hl6yaozp&st=uspdhdjl&dl=0) center/cover no-repeat;
+  }
+
+  100% {
+    background: url(https://dl.dropbox.com/scl/fi/zqqsyrpayt1obe64panr4/Web-Biography-Part-III-A.jpg?rlkey=74zuko2lva9r8ysxhmh1gk3ah&st=2fkb0iyn&dl=0) center/cover no-repeat;
+  }
+}
+
+.bio-acc-head {
+  padding: 5vw 0vw 0vw 5vw;
+  background: #000000;
+  color: #ffffff;
+  text-align: left;
+}
+
+.bio-acc-list {
+  padding: 4vw 4vw 4vw 4vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1vw;
+  column-gap: 3vw;
+  justify-items: center;
+  background: #000000;
+  font-size: 1vw;
+  color: #000000;
+  text-align: justify;
+}
+
+.bio-acc-list-item {
+  padding: 1vw 1vw 1vw 1vw;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  column-gap: 1vw;
+  background: #f1f1f1;
+  border-radius: 0.5vw;
+}
+
+.bio-acc-list-item-pic {
+  padding: 3vw 3vw 3vw 3vw;
+  background: var(--acc-pic) center/cover no-repeat;
+  border-radius: 0.5vw;
+}
+
+.bio-acc-list-item-detail {
+  height: fit-content;
+  font-size: 1vw;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.bio-tag {
+  width: fit-content;
+  background: #000000;
+  border-radius: 0.5vw;
+  color: #ffffff;
+}
